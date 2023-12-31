@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ract_tuto1/static/css/main.e3f867c6.css",
+    "main.js": "/ract_tuto1/static/js/main.b14c44c1.js",
+    "static/js/787.ec7766a3.chunk.js": "/ract_tuto1/static/js/787.ec7766a3.chunk.js",
+    "index.html": "/ract_tuto1/index.html",
+    "main.e3f867c6.css.map": "/ract_tuto1/static/css/main.e3f867c6.css.map",
+    "main.b14c44c1.js.map": "/ract_tuto1/static/js/main.b14c44c1.js.map",
+    "787.ec7766a3.chunk.js.map": "/ract_tuto1/static/js/787.ec7766a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3f867c6.css",
+    "static/js/main.b14c44c1.js"
+  ]
+}

@@ -36,3 +36,17 @@ nav h1 {
   display: flex;
   gap: 20px;
 }
+main{
+  display: flex;
+}
+main .sidebar{
+  width: 30%;
+  max-width: 250px;
+}
+.sidebarLinks{
+  list-style: none;
+}
+.sidebarLinks a{
+  text-decoration: none;
+  padding-block: 8px;
+}

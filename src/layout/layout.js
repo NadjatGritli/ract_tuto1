@@ -8,6 +8,7 @@ const Layout = () => {
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/about">About</NavLink>
                 <NavLink to="/products">Products</NavLink >
+                <NavLink to="/doctor">doctor</NavLink >
             </nav>
             <main>
                 <div className="sidebar">
@@ -21,6 +22,9 @@ const Layout = () => {
                         </li>
                         <li>
                             <NavLink to="/products">Products</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/doctor">doctor</NavLink>
                         </li>
                     </ul>
                 </div>

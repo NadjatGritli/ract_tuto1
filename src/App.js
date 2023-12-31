@@ -14,6 +14,7 @@ import ProductDetails from './pages/ProductDetails'
 // Layout page
 
 import Layout from "./layout/layout";
+import Doctor from './pages/Doctor/DoctorDetails';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,25 @@ const router = createBrowserRouter(
       <Route path="/about" element={<About />} />
       <Route path="/products/:id" element={<ProductDetails />} />
       <Route path="/products" element={<Products />} />
+      <Route path="/doctor" element={<Doctor />} >
+        <Route index element={(
+          <h3>
+            all patients
+          </h3>
+          )} />
+        <Route path='persecription' element={(
+          <h3>
+            all persecription
+          </h3>
+
+        )} />
+        <Route path='dates' element={(
+          <h3>
+            all dates
+          </h3>
+
+        )} />
+      </Route>
       <Route path="/test_inline_component" element={(
         <div>
           <h3>
@@ -29,12 +49,12 @@ const router = createBrowserRouter(
           </h3>
         </div>
       )} />
-    </Route>
+    </Route >
   )
 )
 function App() {
   return (
-      <RouterProvider router={router}></RouterProvider>
+    <RouterProvider router={router}></RouterProvider>
     // <div className="App">
     //   <BrowserRouter>
     //     <main>

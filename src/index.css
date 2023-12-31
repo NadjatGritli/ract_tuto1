@@ -50,3 +50,6 @@ main .sidebar{
   text-decoration: none;
   padding-block: 8px;
 }
+.d-flex{
+  display: flex !important;
+}
